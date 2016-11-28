@@ -1,7 +1,7 @@
 /*
  * Promobot is licenced under the The MIT License (MIT)
  * 
- * Copyright (c) 2014–2016 Daloonik daloonik@gmail.com
+ * Copyright (c) 2014â€“2016 Daloonik daloonik@gmail.com
  * 
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -55,7 +55,7 @@ public class PromobotServlet extends HttpServlet
    Entity locationEntity;
    
    //Change this value with your own SendGrid API key
-   SendGrid sendgrid = new SendGrid("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");
+   SendGrid sendgrid = new SendGrid("your_sendgrid_api_key");
    
    public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException
       {
